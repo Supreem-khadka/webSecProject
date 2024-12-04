@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <script>
+            function signuppage(){
+                window.location.href = "signup.html"
+            }
+        </script>
+    </head>
+    <body>
+        <h2>Task 1</h2>
+        <form name="login" action="login.php" method="POST">
+            <label>Username: </label><br>
+            <input type="text" id="user" name="user" value="admin"><br><br>
+
+            <label>Password: </label><br>
+            <input type="password" id="password" name="password" value="admin123"><br><br>
+
+            <input type="submit" name="login" value="SUBMIT">
+        </form>
+        <br><hr><br>
+        <p>New User</p>
+            <input type="button" name="signup" value="SIGN UP" onclick="signuppage()">
+    </body>
+</html>
