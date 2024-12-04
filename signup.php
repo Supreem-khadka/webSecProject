@@ -9,7 +9,7 @@
         $result = mysqli_query($conn, $sql);
 
         if($result){
-            header("Location:welcome.php");
+            header("Location:index.html");
         }
         else {
             echo "Error: ".mysqli_error($conn);

@@ -9,9 +9,8 @@
         <form action="screenshot.php" method="POST">
             <label for="link">link: </label>
             <input type="text" id="url" name="url" required>
-            <button type="submit">Submit</button>
+            <input type="submit" name="screenshot" value="Screenshot">
         </form>
-
-
+        
     </body>
 </html>
